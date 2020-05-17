@@ -542,6 +542,22 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>CodecCommander.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CodecCommander</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -984,6 +1000,8 @@
 			<false/>
 			<key>AuthRestart</key>
 			<false/>
+			<key>BootProtect</key>
+			<string>None</string>
 			<key>ExposeSensitiveData</key>
 			<integer>3</integer>
 			<key>HaltLevel</key>
@@ -1167,35 +1185,6 @@
 			<key>AppleKeyMap</key>
 			<false/>
 			<key>AppleRtcRam</key>
-			<false/>
-			<key>AppleSmcIo</key>
-			<false/>
-			<key>AppleUserInterfaceTheme</key>
-			<false/>
-			<key>DataHub</key>
-			<false/>
-			<key>DeviceProperties</key>
-			<false/>
-			<key>FirmwareVolume</key>
-			<false/>
-			<key>HashServices</key>
-			<false/>
-			<key>OSInfo</key>
-			<false/>
-			<key>UnicodeCollation</key>
-			<false/>
-		</dict>
-		<key>Protocols</key>
-		<dict>
-			<key>AppleAudio</key>
-			<false/>
-			<key>AppleBootPolicy</key>
-			<false/>
-			<key>AppleEvent</key>
-			<false/>
-			<key>AppleImageConversion</key>
-			<false/>
-			<key>AppleKeyMap</key>
 			<false/>
 			<key>AppleSmcIo</key>
 			<false/>
