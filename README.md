@@ -1,7 +1,7 @@
 # dell-7460-hackintosh
 init  
 clover版本号：5112  
-open core版本号：0.6.0 beta
+open core版本号：0.6.0
 
 ## 现有问题
 1、openCore引导时，登录时键盘有一定几率无法输入  
